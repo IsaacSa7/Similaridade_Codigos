@@ -1,0 +1,18 @@
+                                   Informações
+
+--- Dependências
+-> torch
+-> transformers
+
+
+-> O arquivo calcula_similaridade.py possui o algoritmo para calculo de similaridade entre códigos fontes.
+
+-> O arquivo codigos.py possui os codigos que serão utilizados na comparação.
+
+-> No arquivo códigos.py há 2(dois) vetores de codigos. 1(um) vetor que representa códigos similares e outro que representa códigos não similares
+
+-> Os vetores serão importados do arquivo codigos.py e serão inseridos no modelo codeBert do algoritmo
+
+-> Por padrão a comparação entá no vetor de códigos similares, mas, caso queira testar o de códigos não similares, só alterar no nome na variável " entrada " para receber o vetor de nome " vetor_nao_similar ".
+
+-> Ao final, o modelo retornará a similaridade entre os vetores.
